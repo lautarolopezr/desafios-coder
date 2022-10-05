@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    background-color: bisque;
+    padding: 40px 0 40px 0;
+}
+
+.h1-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.product-title , .price-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+.input-product , .input-price{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+    padding: .4rem;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+
+
+.cuotas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuotas button{
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    border-radius: 10px;
+    border: none;
+    transition: .4s;
+    margin-bottom: 15px;
+}
+
+
+.cuotas button:hover{
+    background-color: rgb(189, 189, 189);
+    
+}
+
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send__button{
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    border-radius: 10px;
+    border: none;
+    transition: .4s;
+}
+
+.send__button:hover{
+    background-color: rgb(189, 189, 189);
+}
